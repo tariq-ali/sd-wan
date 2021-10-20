@@ -1,3 +1,4 @@
+# l3 tloc-extension configuration on router-a
 
 interface GigabitEthernet1
  description internet-transport
@@ -30,6 +31,9 @@ sdwan
   tloc-extension-gre-from 172.21.0.10 xconnect GigabitEthernet1
  exit
 
+
+# l3 tloc-extension configuration on router-b
+
  
  interface GigabitEthernet1
  description internet-transport
@@ -53,4 +57,3 @@ sdwan
   exit
   
   
-  ![image](https://user-images.githubusercontent.com/44279771/138187749-52dbf4ae-71a8-498a-a029-bb5cd6066a55.png)
