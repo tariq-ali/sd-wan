@@ -1,0 +1,8 @@
+# using tcl to add a file to a router
+
+tclsh
+puts [open "bootflash:test.txt" w+] {
+this allows you to add or edit a file
+in flash or bootflash from the router
+cli }
+tclquit
